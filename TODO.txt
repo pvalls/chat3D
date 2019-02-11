@@ -1,0 +1,6 @@
+SHIT TO DO
+
+
+- Chatrooms & usernames withous special characters  (URL's !!)
+- Preguntar al Agenjo enviar imatge als clients desde el server
+- Fer on close al server
