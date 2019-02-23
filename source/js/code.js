@@ -91,7 +91,8 @@ function login(){
 
 	//Connect to the chat room
 	//server.connect("localhost:9026",input_un.value);
-	server.connect("ecv-etic.upf.edu:9026",input_un.value);
+	// server.connect("ecv-etic.upf.edu:9026",input_un.value);
+	server.connect("localhost:9026",input_un.value);
 
 	//Creating user, gives it a cube and adding to the scene
 	Usuario = new User(input_un.value);

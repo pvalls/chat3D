@@ -48,8 +48,9 @@ function init_world(){
 
 	//Plane
 	var geometry = new THREE.PlaneGeometry( planeWidth, planeHeight);
-	//var texture = new THREE.TextureLoader().load('/img/chess.jpg');
-	var material = new THREE.MeshPhongMaterial( { color:"grey"} );
+	// var material = new THREE.TextureLoader().load('/img/chess.jpg');
+	var material = new THREE.MeshBasicMaterial( { map: THREE.ImageUtils.loadTexture( '/img/chess.jpg' ) });
+	//var material = new THREE.MeshPhongMaterial( { color:"grey"} );
 	plane = new THREE.Mesh( geometry, material );
 	plane.side = THREE.DoubleSide;
 	scene.add( plane );

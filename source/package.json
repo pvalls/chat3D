@@ -1,0 +1,17 @@
+{
+  "name": "chat3D",
+  "version": "1.0.0",
+  "main": "ChatServer.js",
+  "private": true,
+  "dependencies": {
+    "debug": "2.6.9",
+    "is-typedarray": "1.0.0",
+    "ms": "2.0.0",
+    "nan": "2.12.1",
+    "typedarray-to-buffer": "3.1.5",
+    "websocket": "1.0.28"
+  },
+  "author": {
+    "name": "Pol Valls"
+  }
+}
