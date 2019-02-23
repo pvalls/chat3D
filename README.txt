@@ -1,12 +1,8 @@
-== README.txt ==
 
 ## Assignment 2: Chat with 3D environment##
 
-Group Members from Polie
-	Lie Jin Wang	NIA 182517 
-	Pol Valls Rué	NIA 184218
 
-emails
+Emails
 	pol.valls02@estudiant.upf.edu
 	lie.jin01@estudiant.upf.edu
 
