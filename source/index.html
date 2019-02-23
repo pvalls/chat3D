@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <!-- Tab Title -->
+        <title>Assignment II</title>
+        <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+        <!-- Icons with google https://www.w3schools.com/icons/icons_reference.asp -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    </head>
+    <body>
+
+        <!-- LOGGIN SCREEN -->
+        <div class="loggin">
+            <br>
+            <!-- Chat Title -->
+            <h1><b>Welcome to Our Chat</b></h1>
+
+            <!-- Division line -->
+            <hr> 
+
+            <!-- USERNAME INPUT -->
+            <h2><b>Username</b></h2>
+            <input class="in_un" type="text" placeholder ="Enter Username">
+
+            <button class="login_btn"><span>Login  &nbsp;</span></button>
+         </div>
+
+         <!-- CHAT SCREEN -->
+        <div class="container">
+            <div class="header">Move to Chat</div>
+            <div class="enviroment">
+                <div class="Tools">
+                    <button class="btn"><i class= "material-icons">account_circle</i></button>
+                </div>
+                <div class="world"> </div>
+
+            </div>
+           
+            <div class="chat_box">
+                <div class="msg"> 
+                    <!-- <div class="msg_me">MyMessage </div>
+                    <div class="msg_notif"> Not Message </div>
+                    <div class="msg_user">UserMsg </div> -->
+                </div>
+                <div class="type-area">
+                    <div class="input_container">
+                        <input class="sd_msg" placeholder="Write Something...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal" >
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1><b>User Edition</b></h1>
+                <h2><b>Change User Name </b></h2>
+                <input class="in_modal_un" type ="text">
+                <br>
+                <h2><b>Change Cube Color </b></h2>
+                <input class="modal_color" type="color" value ="#e66465">
+                <hr>
+                <button class="save_btn"><span>Save  &nbsp;</span></button>
+
+        </div>
+        <script type="text/javascript" src="js/client.js"></script>
+        <script type="text/javascript" src="js/code.js"></script>
+        <script type="text/javascript" src="js/three.js"></script>
+        <script type="text/javascript" src="js/user.js"></script>
+        <script type="text/javascript" src="js/world.js"></script>
+        <script type="text/javascript" src="js/keyinputs.js"></script>
+
+    </body>
+</html>
